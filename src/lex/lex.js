@@ -1,5 +1,5 @@
 import AWS from 'aws-sdk'
-import { aws as config } from '../../commons/variables'
+import { aws as config } from '../../config/variables'
 
 AWS.config.region = config.region;
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
